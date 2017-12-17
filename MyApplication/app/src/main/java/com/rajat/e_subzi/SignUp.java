@@ -38,7 +38,7 @@ public class SignUp extends ActionBarActivity implements AdapterView.OnItemSelec
                 .setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter_state);
         spinner.setOnItemSelectedListener(this);
-        spinner.setVisibility(View.GONE);
+//        spinner.setVisibility(View.GONE);
     }
 
     @Override
@@ -83,9 +83,10 @@ public class SignUp extends ActionBarActivity implements AdapterView.OnItemSelec
         String password = pass.getText().toString();
         String addressss= address.getText().toString();
         String phoneNumber =phoneNum.getText().toString();
+        String selState = (String) spinner.getSelectedItem();
         if(!userName.equals("") && !password.equals("") && !addressss.equals("") && !phoneNumber.equals("")) {
             if (userName.length() > 5 && password.length() > 7 && addressss.length()>7 && phoneNumber.length()>6) {
-            VolleyClick.signUp(user.getText().toString(), pass.getText().toString(), address.getText().toString(), phoneNum.getText().toString(), "Customer", this);
+            VolleyClick.signUp(user.getText().toString(), pass.getText().toString(), address.getText().toString(), phoneNum.getText().toString(), selState, this);
             }else{
                 if(userName.length()<=5){
                     Toast.makeText(SignUp.this,"Username should have atleast 5 characters",Toast.LENGTH_SHORT).show();

@@ -1,2 +1,2 @@
-# eSubziAndroid
-eSubzi Android app
+# eShopAndroid
+eShop Android app
