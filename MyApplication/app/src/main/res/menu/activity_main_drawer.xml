@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/products"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Products"
+            android:visible="true"/>
+        <item
+            android:id="@+id/order"
+            android:title="Orders"
+            android:icon="@android:drawable/ic_menu_add"
+            android:visible="true"
+            />
+        <item
+            android:id="@+id/preferences"
+            android:title="Preferences"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:visible="true"/>
+
+
+    </group>
+
+</menu>

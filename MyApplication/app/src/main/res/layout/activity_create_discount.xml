@@ -1,0 +1,39 @@
+<android.support.v4.widget.DrawerLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="7dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <EditText android:hint="Description" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc_discount"
+        android:paddingTop="50dp"
+        android:layout_gravity="center_horizontal" />
+
+<Button
+    android:layout_marginTop="50dp"
+    android:id="@+id/send_discount"
+    android:textColor="#ffb40a98"
+    android:layout_below="@id/desc_discount"
+    android:text="Notify Discount"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</RelativeLayout>
+    <ListView
+        android:id="@+id/create_discount_nav"
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+
+        android:background="#ffffff"
+        android:scrollbars="vertical">
+
+    </ListView>
+</android.support.v4.widget.DrawerLayout>

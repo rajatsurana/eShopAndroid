@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rajat.e_subzi" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bag"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".gcm.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddProducts"
+            android:label="@string/title_activity_add_products" >
+        </activity>
+        <activity
+            android:name=".Discounts"
+            android:label="@string/title_activity_discounts"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Orders"
+            android:label="@string/title_activity_orders"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Products"
+            android:label="@string/title_activity_products"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".NavDrawer"
+            android:label="@string/title_activity_nav_drawer"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ProductDetails"
+            android:label="@string/title_activity_product_details"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".AddOrder"
+            android:label="@string/title_activity_add_order"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".PermissionForm"
+            android:label="@string/title_activity_permission_form"
+            android:screenOrientation="portrait">
+        </activity>
+        <!-- [START gcm_receiver] -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.rajat.e_subzi.gcm" />
+            </intent-filter>
+        </receiver>
+        <!-- [END gcm_receiver] -->
+
+
+        <!-- [START gcm_listener] -->
+        <service
+            android:name=".gcm.MyGcmListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <!-- [END gcm_listener] -->
+        <!-- [START instanceId_listener] -->
+        <service
+            android:name=".gcm.MyInstanceIDListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <!-- [END instanceId_listener] -->
+        <service
+            android:name=".gcm.RegistrationIntentService"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name=".OrderDeatils"
+            android:label="@string/title_activity_order_deatils"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Shops"
+            android:label="@string/title_activity_shops"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".CreateDiscount"
+            android:label="@string/title_activity_create_discounts"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Offers"
+            android:label="@string/title_activity_offers"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Adapter.NotificationView"
+            android:label="@string/title_activity_create_notifications"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

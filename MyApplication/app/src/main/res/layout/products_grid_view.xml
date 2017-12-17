@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_marginTop="6dp"
+        android:background="@color/white">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:background="@color/white"
+                android:id="@+id/product_image" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Carrots"
+                android:textAlignment="center"
+                android:textColor="#b40a98"
+                android:textSize="30dp"
+
+                android:layout_below="@id/product_image"
+
+                android:id="@+id/product_text"
+                android:gravity="center_horizontal" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:dividerPadding="2dp">
+        <ImageButton
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:src="@drawable/ic_create_black_24dp"
+            android:scaleType="fitXY"
+           android:id="@+id/edit_product"/>
+        <ImageButton
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:src="@drawable/red_cross_tick"
+            android:scaleType="fitXY"
+            android:id="@+id/delete_product"/>
+
+    </LinearLayout>
+</LinearLayout>
