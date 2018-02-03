@@ -4,8 +4,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.rajat.e_subzi.Login"
-    android:background="#389014"
+    tools:context="com.rajat.eshop.LoginActivity"
+    android:background="@color/backgroundColor"
     android:orientation="vertical">
     <ScrollView
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         android:src="@drawable/bag1"
         android:layout_margin="30dp"/>
 
-    <TextView android:text="@string/esubzi" android:layout_width="match_parent"
+    <TextView android:text="@string/eshop" android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#fff"
         android:textSize="40dp"
@@ -46,18 +46,18 @@
         android:paddingLeft="15dp" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#389014"
+            android:background="@color/buttonColor"
             android:text="Login"
             android:textColor="#fff"
             android:layout_gravity="center_horizontal"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:gravity="center"
             android:onClick="login"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:layout_alignParentStart="true" />
+            />
 
 
 
@@ -82,7 +82,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:textColor="#ff8800"
+                    android:textColor="@color/detailsColor"
                     android:onClick="signup"
                     android:text="SignUp"/>
 

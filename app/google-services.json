@@ -1,17 +1,17 @@
 {
   "project_info": {
-    "project_id": "esubzi-1248",
+    "project_id": "eshop-1248",
     "project_number": "595805030780",
-    "name": "esubzi"
+    "name": "eshop"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:595805030780:android:74b85f671ac4ed35",
-        "client_id": "android:com.rajat.e_subzi",
+        "client_id": "android:com.rajat.eshop",
         "client_type": 1,
         "android_client_info": {
-          "package_name": "com.rajat.e_subzi",
+          "package_name": "com.rajat.eshop",
           "certificate_hash": []
         }
       },

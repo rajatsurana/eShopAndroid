@@ -9,4 +9,7 @@
     <color name="dwhite">#ffffff</color>
     <color name="golden">#790000</color>
     <color name="green">#46B419</color>
+    <color name="backgroundColor">#1E88E5</color>
+    <color name="buttonColor">#2962FF</color>
+    <color name="detailsColor">#2962FF</color>
 </resources>

@@ -12,7 +12,7 @@ android:elevation="7dp">
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         android:paddingBottom="@dimen/activity_vertical_margin"
-        tools:context="com.rajat.e_subzi.AddProducts"
+        tools:context="com.rajat.eshop.AddProductsActivity"
         android:orientation="vertical">
 
         <EditText

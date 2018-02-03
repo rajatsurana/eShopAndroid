@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rajat.e_subzi" >
+    package="com.rajat.eshop" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -17,55 +17,55 @@
         android:icon="@drawable/bag"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <!--<activity
+            android:screenOrientation="portrait"
+            android:name="com.rajat.eshop.LoginActivityOld"
+            android:label="@string/app_name" >
+        </activity>-->
         <activity
             android:screenOrientation="portrait"
-            android:name=".LoginActivity"
+            android:name="com.rajat.eshop.gcm.MainActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
             android:screenOrientation="portrait"
-            android:name=".gcm.MainActivity"
+            android:name="com.rajat.eshop.MainActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
             android:screenOrientation="portrait"
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:screenOrientation="portrait"
-            android:name=".AddProducts"
+            android:name="com.rajat.eshop.AddProductsActivity"
             android:label="@string/title_activity_add_products" >
         </activity>
         <activity
-            android:name=".Discounts"
+            android:name="com.rajat.eshop.Discounts"
             android:label="@string/title_activity_discounts"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".Orders"
+            android:name="com.rajat.eshop.OrdersActivity"
             android:label="@string/title_activity_orders"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".Products"
+            android:name="com.rajat.eshop.ProductsActivity"
             android:label="@string/title_activity_products"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".NavDrawer"
+            android:name="com.rajat.eshop.NavDrawer"
             android:label="@string/title_activity_nav_drawer"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".ProductDetails"
+            android:name="com.rajat.eshop.ProductDetails"
             android:label="@string/title_activity_product_details"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".Login"
+            android:name="com.rajat.eshop.LoginActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -75,17 +75,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SignUp"
+            android:name="com.rajat.eshop.SignUpActivity"
             android:label="@string/title_activity_sign_up"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".AddOrder"
+            android:name="com.rajat.eshop.AddOrderActivity"
             android:label="@string/title_activity_add_order"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".PermissionForm"
+            android:name="com.rajat.eshop.PermissionForm"
             android:label="@string/title_activity_permission_form"
             android:screenOrientation="portrait">
         </activity>
@@ -105,7 +105,7 @@
 
         <!-- [START gcm_listener] -->
         <service
-            android:name=".gcm.MyGcmListenerService"
+            android:name="com.rajat.eshop.gcm.MyGcmListenerService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
@@ -114,40 +114,40 @@
         <!-- [END gcm_listener] -->
         <!-- [START instanceId_listener] -->
         <service
-            android:name=".gcm.MyInstanceIDListenerService"
+            android:name="com.rajat.eshop.gcm.MyInstanceIDListenerService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.android.gms.iid.InstanceID" />
             </intent-filter>
         </service>
         <!-- [END instanceId_listener] -->
-        <service
-            android:name=".gcm.RegistrationIntentService"
+  <!--      <service
+            android:name="com.rajat.eshop.gcm.RegistrationIntentService"
             android:exported="false" >
         </service>
-
+-->
         <activity
-            android:name=".OrderDeatils"
+            android:name="com.rajat.eshop.OrderDeatils"
             android:label="@string/title_activity_order_deatils"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".Shops"
+            android:name="com.rajat.eshop.ShopsActivity"
             android:label="@string/title_activity_shops"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".CreateDiscount"
+            android:name="com.rajat.eshop.CreateDiscount"
             android:label="@string/title_activity_create_discounts"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".Offers"
+            android:name="com.rajat.eshop.OffersActivity"
             android:label="@string/title_activity_offers"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".Adapter.NotificationView"
+            android:name="com.rajat.eshop.Adapter.NotificationView"
             android:label="@string/title_activity_create_notifications"
             android:screenOrientation="portrait">
         </activity>
