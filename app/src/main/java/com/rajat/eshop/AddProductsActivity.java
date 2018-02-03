@@ -30,7 +30,6 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-//import com.example.rishab.esubzi.Volley.VolleyClick;
 
 import com.rajat.eshop.Adapter.NotificationView;
 import com.rajat.eshop.Volley.VolleyClick;

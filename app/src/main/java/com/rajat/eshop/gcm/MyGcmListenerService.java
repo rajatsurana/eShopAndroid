@@ -94,7 +94,7 @@ public class MyGcmListenerService extends GcmListenerService {
         //////////////////////////
 //        NotificationCompat.BigTextStyle bigText = new NotificationCompat.BigTextStyle();
 //        bigText.bigText(message);
-//        bigText.setBigContentTitle("eSubzi");
+//        bigText.setBigContentTitle("eShop");
 
 
         //bigText.setSummaryText("By: Dhaval Sodha Parmar");
@@ -115,7 +115,7 @@ public class MyGcmListenerService extends GcmListenerService {
         ///////////////////////
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.bag)
-                .setContentTitle("eSubzi")
+                .setContentTitle("eShop")
                 .setContentText(message)
                 //.setContent()
                 .setAutoCancel(true)

@@ -97,7 +97,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.rajat.e_subzi.gcm" />
+                <category android:name="com.rajat.eshop.gcm" />
             </intent-filter>
         </receiver>
         <!-- [END gcm_receiver] -->

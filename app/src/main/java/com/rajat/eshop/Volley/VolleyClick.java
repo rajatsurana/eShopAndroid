@@ -14,8 +14,8 @@ import java.util.ArrayList;
  */
 public class VolleyClick {
 //128.199.152.41
-//    static String IP = "http://192.168.43.200:3000";
-    static String IP="http://139.59.30.244:3000";//http://128.199.152.41:3000";
+    static String IP = "http://192.168.43.200:3000";
+//    static String IP="http://139.59.30.244:3000";//http://128.199.152.41:3000";
     public static void signUp(String email,String  password,String address,String phoneNum,String type,Context context){
         CheckNetwork chkNet = new CheckNetwork(context);
         String URL = IP+"/api/signup";
