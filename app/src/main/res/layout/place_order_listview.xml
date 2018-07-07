@@ -28,8 +28,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/commodity"
-                android:text="hffgfhg"
-                android:textColor="#000"
+                android:text="basic"
+                android:textColor="@color/splitgrey"
                 android:textSize="20dp" />
             <TextView
                 android:layout_width="match_parent"
@@ -78,7 +78,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#9f7a7a7b"
+                android:background="@color/white"
                 android:layout_marginRight="10dp" />
 
         </LinearLayout>

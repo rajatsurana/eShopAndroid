@@ -5,11 +5,24 @@
     <color name="blue_grey_700">#455A64</color>
     <color name="blue_grey_800">#37474F</color>
     <color name="blue_grey_900">#263238</color>
-    <color name="white">#d8d8d8</color>
+    <color name="dgrey">#d8d8d8</color>
+    <color name="white">#ffffff</color>
     <color name="dwhite">#ffffff</color>
     <color name="golden">#790000</color>
-    <color name="green">#46B419</color>
+    <!--<color name="green">#46B419</color>-->
+    <color name="green">#5bc5a7</color>
     <color name="backgroundColor">#1E88E5</color>
-    <color name="buttonColor">#2962FF</color>
+    <!--<color name="buttonColor">#2962FF</color>-->
+    <color name="buttonColor">#ff652f</color>
     <color name="detailsColor">#2962FF</color>
+
+    <color name="splitorange">#ff652f</color>
+    <color name="splitred">#b63b44</color>
+    <color name="splitgreen">#5bc5a7</color>
+    <color name="splitgrey">#999999</color>
+    <color name="splitblack">#333333</color>
+    <color name="splitbackgroundgrey">#eeeeee</color>
+    <color name="splitbackgroundgreen">#e3f5c9</color>
+    <color name="splithighlightblue">#0088cc</color>
+    <color name="splittextgrey">#555555</color>
 </resources>

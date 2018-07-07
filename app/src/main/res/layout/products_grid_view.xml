@@ -21,7 +21,7 @@
                 android:layout_height="wrap_content"
                 android:text="Carrots"
                 android:textAlignment="center"
-                android:textColor="#b40a98"
+                android:textColor="@color/splitblack"
                 android:textSize="30dp"
 
                 android:layout_below="@id/product_image"

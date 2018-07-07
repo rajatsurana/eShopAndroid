@@ -5,7 +5,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.rajat.eshop.LoginActivity"
-    android:background="@color/backgroundColor"
+    android:background="@color/splitgreen"
     android:orientation="vertical">
     <ScrollView
         android:layout_width="match_parent"
@@ -82,7 +82,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/detailsColor"
+                    android:textColor="@color/splithighlightblue"
                     android:onClick="signup"
                     android:text="SignUp"/>
 

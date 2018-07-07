@@ -38,7 +38,8 @@
                 android:layout_weight="0.33"
                 android:layout_width="0dp"
                 android:text="Update"
-                android:textColor="#ffb40a98"
+                android:textColor="@color/white"
+                android:background="@color/splitorange"
                 android:id="@+id/update_name"
                 android:layout_height="50dp" />
         </LinearLayout>
@@ -64,7 +65,8 @@
                 android:layout_weight="0.33"
                 android:layout_width="0dp"
                 android:text="Update"
-                android:textColor="#ffb40a98"
+                android:textColor="@color/white"
+                android:background="@color/splitorange"
                 android:id="@+id/update_price"
                 android:layout_height="50dp" />
         </LinearLayout>
@@ -89,7 +91,8 @@
                 android:layout_weight="0.33"
                 android:layout_width="0dp"
                 android:text="Update"
-                android:textColor="#ffb40a98"
+                android:textColor="@color/white"
+                android:background="@color/splitorange"
                 android:id="@+id/update_disc"
                 android:layout_height="50dp" />
         </LinearLayout>
@@ -115,7 +118,8 @@
                 android:layout_weight="0.33"
                 android:layout_width="0dp"
                 android:text="Update"
-                android:textColor="#ffb40a98"
+                android:textColor="@color/white"
+                android:background="@color/splitorange"
                 android:id="@+id/update_quantity"
                 android:layout_height="50dp" />
         </LinearLayout>
@@ -140,8 +144,8 @@
             android:layout_height="wrap_content"
             android:text="Done"
             android:layout_marginRight="20dp"
-            android:background="#ffb40a98"
-            android:textColor="#fff"
+            android:textColor="@color/white"
+            android:background="@color/splitorange"
             android:onClick="done"
             android:textSize="12dp"
             android:translationZ="20dp"

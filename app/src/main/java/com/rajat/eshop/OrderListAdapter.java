@@ -29,7 +29,8 @@ public class OrderListAdapter extends BaseAdapter{
     String[] headings;
     String[] desc;
     Context context;
-    String[] colors={"#A53ABD","#234E33"};
+//    String[] colors={"#A53ABD","#234E33"};
+    String[] colors={"#999999","#5bc5a7"};
     String[] dropdown={"OrderReceived", "OrderBeingProcessed", "Delivering", "Delivered"};
     HashMap<String ,Integer> mapping=new HashMap<String ,Integer >();
     ArrayList<Order> orders;

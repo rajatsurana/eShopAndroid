@@ -35,6 +35,6 @@ public class CheckNetwork {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        return !(wifiDataAvailable || mobileDataAvailable);
+        return (wifiDataAvailable || mobileDataAvailable);
     }
 }

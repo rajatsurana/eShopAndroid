@@ -6,15 +6,16 @@
         <!--<item name="android:background">#46B419</item>-->
         <item name="android:actionBarStyle">@style/MyTheme.ActionBarStyle</item>
         <!--<item name="colorPrimary">#D50000</item>-->
-        <item name="colorPrimaryDark">#1565C0</item>
-
+        <!--<item name="colorPrimaryDark">#1565C0</item>-->
+        <item name="colorPrimaryDark">@color/splitgreen</item>
     </style>
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
     <style name="MyTheme.ActionBarStyle" parent="Base.Theme.AppCompat.Light.DarkActionBar">
 
-        <item name="android:background">#1E88E5</item>
+        <!--<item name="android:background">#1E88E5</item>-->
+        <item name="android:background">@color/splitbackgroundgreen</item>
         <item name="android:windowActionBar">true</item>
         <item name="android:windowNoTitle">false</item>
 

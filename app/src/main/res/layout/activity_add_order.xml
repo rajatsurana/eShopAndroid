@@ -57,8 +57,8 @@
             android:id="@+id/button4"
             android:translationZ="20dp"
             android:layout_weight="0"
-            android:textColor="#fff"
-            android:background="#ffb40a98"
+            android:textColor="@color/white"
+            android:background="@color/splitorange"
             android:gravity="center_vertical|center_horizontal"
             android:onClick="placeOrder"
             android:layout_margin="4dp"
@@ -73,7 +73,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
 
-        android:background="#ffffff"
+        android:background="@color/white"
         android:scrollbars="vertical"
         android:clickable="true">
 

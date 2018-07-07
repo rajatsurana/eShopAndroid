@@ -17,10 +17,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="sfdssfds"
+            android:text="basic"
             android:gravity="center"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#b40a98"
+            android:textColor="@color/splitblack"
             android:id="@+id/shp" />
     </android.support.v7.widget.CardView>
 

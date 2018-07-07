@@ -19,7 +19,7 @@
 <Button
     android:layout_marginTop="50dp"
     android:id="@+id/send_discount"
-    android:textColor="#ffb40a98"
+    android:textColor="@color/splitblack"
     android:layout_below="@id/desc_discount"
     android:text="Notify Discount"
     android:layout_centerHorizontal="true"
@@ -32,7 +32,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
 
-        android:background="#ffffff"
+        android:background="@color/white"
         android:scrollbars="vertical">
 
     </ListView>

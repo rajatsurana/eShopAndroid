@@ -40,7 +40,8 @@ public class OffersActivity extends ActionBarActivity {
         }.getType());
         ActionBar actionBar;
         actionBar = getSupportActionBar();
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#46B419"));
+//        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#46B419"));
+        ColorDrawable colorDrawable = new ColorDrawable(getResources().getColor(R.color.splitgreen));
         actionBar.setBackgroundDrawable(colorDrawable);
 
 

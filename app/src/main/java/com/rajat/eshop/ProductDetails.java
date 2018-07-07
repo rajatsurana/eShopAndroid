@@ -2,7 +2,9 @@ package com.rajat.eshop;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.drawable.ColorDrawable;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -34,6 +36,12 @@ public class ProductDetails extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product_details);
+        ActionBar actionBar = getSupportActionBar();
+        //ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#46B419"));
+
+        ColorDrawable colorDrawable = new ColorDrawable(getResources().getColor(R.color.splitgreen));
+
+        actionBar.setBackgroundDrawable(colorDrawable);
         Intent intent=getIntent();
         product=(Product) new Gson().fromJson((String) intent.getStringExtra("data"), Product.class);
         EditText edittext=(EditText)findViewById(R.id.p_desc);

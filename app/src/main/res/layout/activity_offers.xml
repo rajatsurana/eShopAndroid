@@ -22,7 +22,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
 
-        android:background="#ffffff"
+        android:background="@color/white"
         android:scrollbars="vertical">
 
     </ListView>

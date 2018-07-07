@@ -62,11 +62,12 @@ public class OrdersActivity extends ActionBarActivity {
         }
         Log.d("ffdgdgf", getIntent().getStringExtra("data"));
         actionBar = getSupportActionBar();
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#46B419"));
+//        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#46B419"));
+        ColorDrawable colorDrawable = new ColorDrawable(getResources().getColor(R.color.splitgreen));
         actionBar.setBackgroundDrawable(colorDrawable);
 
         ListView listView=(ListView)findViewById(R.id.orders);
-        String[] items={"Delievery","Delivery"};
+        String[] items={"Delivery","Delivery"};
         String[] discounts={"1st Priority","2nd priority"};
         Log.i("rajat","size:-"+orderObjList.size()+" "+number.size()+" "+address.size());
         OrderListAdapter adapter=new OrderListAdapter(orderObjList,number,address,this);
